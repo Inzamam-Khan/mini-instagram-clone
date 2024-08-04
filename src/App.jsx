@@ -21,6 +21,7 @@ function App() {
       <Route path="/:userName" element={<ProfilePage/>}/>
       <Route path="/search" element={<SearchPage/>} />
       <Route path="/createpost" element={<CreatePost/>}/>
+      
     </Routes>
     
     </PageLayout>
